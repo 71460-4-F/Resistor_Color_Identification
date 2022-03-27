@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src='script.js' defer></script>
+  <title></title>
+</head>
+
+<body>
+  <div id="text">
+    <h4>RESISTOR:&nbsp;&nbsp;</h4>
+    <h4><text id="resistorValue">1.000 &ohm;&nbsp;&nbsp; &plusmn;&nbsp;5%</text></h4><br>
+  </div>
+  <form>
+    <br><br>
+    <div id="resist-cal">
+      <div id="terminal-esq"></div>
+      <div id="field1">
+        <div id="field-label1"></div>
+        <select name="faixa1" value="" id="field-select1" onchange="changeLabel1(this)">
+          <option value="0" style="color: white; background: black;">PRETO</option><br>
+          <option value="1" style="color: white; background: #583030;" selected>MARROM</option>
+          <option value="2" style="color: white; background: red;">VERMELHO</option>
+          <option value="3" style="color: white; background: orange;">LARANJA</option>
+          <option value="4" style="color: white; background: yellow;">AMARELO</option>
+          <option value="5" style="color: white; background: green;">VERDE</option>
+          <option value="6" style="color: white; background: blue;">AZUL</option>
+          <option value="7" style="color: white; background: purple;">VIOLETA</option>
+          <option value="8" style="color: white; background: gray;">CINZA</option>
+          <option value="9" style="color: white; background: white;">BRANCO</option>
+        </select>
+      </div>
+      <div id="field2">
+        <div id="field-label2"></div>
+        <select name="faixa2" value="" id="field-select2" onchange="changeLabel2(this)">
+          <option value="0" style="color: white; background: black;" selected>PRETO</option><br>
+          <option value="1" style="color: white; background: #583030;">MARROM</option>
+          <option value="2" style="color: white; background: red;">VERMELHO</option>
+          <option value="3" style="color: white; background: orange;">LARANJA</option>
+          <option value="4" style="color: white; background: yellow;">AMARELO</option>
+          <option value="5" style="color: white; background: green;">VERDE</option>
+          <option value="6" style="color: white; background: blue;">AZUL</option>
+          <option value="7" style="color: white; background: purple;">VIOLETA</option>
+          <option value="8" style="color: white; background: gray;">CINZA</option>
+          <option value="9" style="color: white; background: white;">BRANCO</option>
+        </select>
+      </div>
+
+      <div id="field3">
+        <div id="field-label3"></div>
+        <select name="faixa3" value="" id="field-select3" onchange="changeLabel3(this)">
+          <option value="0" style="color: white; background: black;">PRETO</option><br>
+          <option value="1" style="color: white; background: #583030;">MARROM</option>
+          <option value="2" style="color: white; background: red;" selected>VERMELHO</option>
+          <option value="3" style="color: white; background: orange;">LARANJA</option>
+          <option value="4" style="color: white; background: yellow;">AMARELO</option>
+          <option value="5" style="color: white; background: green;">VERDE</option>
+          <option value="6" style="color: white; background: blue;">AZUL</option>
+          <option value="7" style="color: white; background: purple;">VIOLETA</option>
+          <option value="8" style="color: white; background: gray;">CINZA</option>
+          <option value="9" style="color: white; background: white;">BRANCO</option>
+        </select>
+      </div>
+      <div id="field4">
+        <div id="field-label4"></div>
+        <select name="faixa4" value="" id="field-select4" onchange="changeLabel4(this)">
+          <option value="10" style="color: white; background: goldenrod;" selected>OURO</option>
+          <option value="11" style="color: white; background: silver;">PRATA</option>
+        </select>
+      </div>
+      <div id="terminal-dir"></div>
+  </form>
+</body>
+
+</html>

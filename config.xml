@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tafsystems.resistor" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ResistorApp</name>
+    <description>Aplicativo de identificação de resistores de quatro faixas.</description>
+    <author email="contatotiago.si@gmail.com" href="https://github.com/71460-4-F">
+        Tiago A. Fontenele
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <icon src="res/icon.png" />
+
+    <splash src="res/splash.png" />
+<!-- tempo que fica visível -->
+ <preference name="SplashScreenDelay" value="5000" />
+
+<!-- spinner -->
+   <preference name="ShowSplashScreenSpinner" value="false"/>
+</widget>

@@ -1,0 +1,27 @@
+{
+  "name": "com.tafsystems.resistor",
+  "displayName": "Resistor App",
+  "version": "1.0.0",
+  "description": "Aplicativo de identificação de resistores de quatro faixas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Tiago A.Fontnele",
+  "license": "",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-splashscreen": {}
+    }
+  },
+  "devDependencies": {
+    "cordova-android": "^10.1.1",
+    "cordova-plugin-splashscreen": "^6.0.0"
+  }
+}
